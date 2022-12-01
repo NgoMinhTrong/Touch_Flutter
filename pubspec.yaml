@@ -1,0 +1,43 @@
+name: mafc_flutter
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+# UI
+  cupertino_icons: ^1.0.2
+  intro_slider: ^4.2.0
+  shared_preferences: ^2.0.13
+# State management
+  get: ^4.6.5
+# Responsive UI
+  sizer: ^2.0.15
+# REST API
+  http: ^0.13.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/
+    - assets/images/
+  fonts:
+    - family: OpenSansBold
+      fonts:
+        - asset: fonts/OpenSans-Bold.ttf
+    - family: OpenSansLight
+      fonts:
+        - asset: fonts/OpenSans-Light.ttf
+    - family: OpenSansRegular
+      fonts:
+        - asset: fonts/OpenSans-Regular.ttf
